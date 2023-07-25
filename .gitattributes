@@ -1,0 +1,6 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Don't show diffs for yarn releases and plugins
+/.yarn/plugins/** binary
+/.yarn/releases/** binary
